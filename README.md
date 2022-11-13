@@ -1,4 +1,4 @@
-😉 Hi i am Michael Kanios..i hope you like it !
+#😉 Hi i am Michael Kanios..i hope you like it ! Its full responsive so try it !
 
 
 # Frontend Mentor - Product preview card component
