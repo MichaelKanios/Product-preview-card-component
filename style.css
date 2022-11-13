@@ -1,0 +1,126 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(30, 38%, 92%);
+
+}
+
+.container .photo #desktop{
+  border-top-left-radius:20px;
+  border-bottom-left-radius: 20px;
+}
+.container .photo #mobile{
+  display: none;
+}
+
+
+.container{
+display: flex;
+justify-content: center;
+margin: 50px auto;
+
+}
+
+.text{
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:300px;
+  border-top-right-radius:20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px 20px 30px 30px;
+
+}
+
+.text .per{
+  font-family:  'Fraunces', serif;
+  font-size: 15px;
+  color:hsl(228, 12%, 48%);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.text .main_title{
+  font-family:  'Fraunces', serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 35px;
+
+}
+
+.text p{
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+color:hsl(228, 12%, 48%);
+letter-spacing: 1,5px;
+line-height: 25px;
+}
+
+.text .price{
+  display: flex;
+  gap:20px;
+  align-items: center;
+  color: #696465;
+}
+
+.price .final{
+  font-size : 35px;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+
+}
+
+.price .start{
+  text-decoration:line-through;
+}
+
+.text button{
+  background-color:hsl(158, 36%, 37%);
+  color:White;
+  letter-spacing: 1px;
+  line-height: 45px;
+  border-radius: 10px;
+
+}
+.text span{
+  padding-right: 15px;
+
+}
+.text button:hover{
+  background-color: hsl(157, 34%, 25%);
+
+
+}
+@media screen and (max-width: 605px) {
+  .container,.attribution ,.attribution a  {
+flex-direction: column;
+align-items: center;
+margin:10px
+
+
+}
+.container .photo #desktop{
+display: none;
+}
+.container .photo #mobile{
+  display: block;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 400px;
+}
+.text{
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px;
+  width: 400px;
+  }
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
